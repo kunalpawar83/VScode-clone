@@ -1,0 +1,53 @@
+  @media (max-width:350px) {
+           .left-img{
+                height: 150px;
+                width: 150px;
+           }
+           
+  }
+
+@media (max-width:415px) {
+    .svg-blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      .item h3{
+        font-size: large;
+      }
+      .section{
+           display: block;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+      } 
+      .logos{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .inner-class{
+        margin-right:10px ;
+      }
+}
+@media (max-width:845px) {
+    .svg-blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+      }
+     .main-img{
+         margin-left:10vw ;
+     }
+    .section{
+      display: grid;
+      grid-template-columns: 1fr; 
+      
+   }
+   .section-left img{
+       margin-left: 20vw;
+   }
+}
+
+.svg-blog :hover{
+    color: blue;
+    font-size: xx-large;
+}

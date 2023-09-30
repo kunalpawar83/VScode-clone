@@ -1,0 +1,132 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+.left-a{
+    font-size: x-large;
+    padding-right: 5rem;
+}
+.main-ul{
+    font-size: large;
+}
+.main-ul:hover{
+    color: gray;
+}
+.text{
+     text-align: center;
+     background-color: rgb(66, 65, 65);
+     color: white;
+     padding: 10px;
+}
+.text a{
+      padding: 5px;
+      color: rgb(44, 154, 244);
+}
+.bgc{
+    margin-top: 0px;
+    background-color: gray;
+    height: 70vh; 
+}
+.main-img{
+      width: 70vw;
+}
+.svg-blog{
+     display: flex;
+    
+}
+.item{
+    padding-top: 20px;
+    width: 60vw;
+    height: 30vh;
+}
+.bgc-section{
+    background-color: rgb(242, 242, 242);
+}
+.section{
+     display: flex;
+     align-items: center;
+     margin-bottom: 40px;
+     padding: 20px;
+}
+.section-left{
+     width: 30%;
+}
+.section-right{
+    width: 80%;
+    text-align: center;
+}
+.section-right h2{
+font-size: 40px;
+font-weight: 100;
+  }
+  .section-right p{
+     font-size: larger;
+     font-family: cursive;
+     font-weight: 100;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    } 
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+      grid-template-rows:2fr 2fr;
+  
+  }
+  .wrapper div{
+      padding: 15px;
+    }
+
+ .allgird h2{
+      text-align: center;
+      padding: 20px;
+      font-size: xxx-large;
+ }
+ h5 {
+  text-align: center;
+ }
+ .insideall{
+      text-decoration: none;
+ }
+ .btnn{
+   width:250px;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+.btnn button{
+  font-size: x-large;
+  padding: 20px;
+}
+.logos{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.inner-class{
+  background-color:#0d6efd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.line{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 30px;
+}
+.inner-line{
+
+    padding: 30px;
+    text-align: center;
+}
+.last-section{
+   text-align: center;
+   padding-top: 60px;
+   padding-bottom: 30px;
+}
+
